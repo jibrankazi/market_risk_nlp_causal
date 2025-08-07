@@ -1,0 +1,35 @@
+# Ignore environment files
+.env
+venv/
+ENV/
+env/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+eggs/
+*.egg-info/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Data directories
+data/raw/
+data/processed/
+
+# Model artifacts
+models/
+visualizations/
+
+# Other large files
+*.h5
+*.pkl
+*.pt
+*.zip
+*.tar.gz
